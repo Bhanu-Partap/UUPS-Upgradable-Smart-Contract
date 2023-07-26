@@ -14,8 +14,11 @@ async function main() {
  console.log(address);
 }
 
-// contract address
-// x5ac6ad85b881ef3087d581EaE059De29A269d66a
+// Proxy contract address
+// xd51aA50843c18d77a874fb3D5FdF3f64c577Aec6
+
+// pizza contract address
+// xd51aa50843c18d77a874fb3d5fdf3f64c577aec6 
 
 
 main();
