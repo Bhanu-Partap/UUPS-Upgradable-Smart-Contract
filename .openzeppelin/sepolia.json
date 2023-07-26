@@ -1,0 +1,132 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xB26870aD5d0d6e5140376b7B901B56156A7083a3",
+      "txHash": "0x3ce0bb52ef0950ba95ff93f29b7433e572508b132ed58d08586cedb0dbe0feb1",
+      "kind": "uups"
+    },
+    {
+      "address": "0x643FC144646404cA98d55C8c29e05c3791dE2672",
+      "txHash": "0x56c13a0cef8a278fc856bc6829e9cc86d0a8e6604d7549265beac746b5138da5",
+      "kind": "uups"
+    },
+    {
+      "address": "0x2f90B599d25a8C5E77D90B3aCE81FA930f92038F",
+      "txHash": "0xd10b5d5b190a2ce9e565b24365e15de7c2efac96bf5ca3aa2adba06b40cd4db9",
+      "kind": "uups"
+    },
+    {
+      "address": "0xb1FC9f90036CFB0aD4229BA2dEd30bD53Fc334f6",
+      "txHash": "0x5019dfa4e80a4a885d2795c11c4a5e1d8f63556734929bb52d81ae37a59d0838",
+      "kind": "uups"
+    },
+    {
+      "address": "0x5ac6ad85b881ef3087d581EaE059De29A269d66a",
+      "txHash": "0xd32957130ef240f9283fe1c82b9a533e95c75fe50f7d371b71536e24a813eeb5",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "51bbf62550aa2d25e93c399e499766fbf8582099f7263cc63e2b4f9636413aba": {
+      "address": "0x9E30993b41886fDFd68c99bcEFE62D7152ADC66a",
+      "txHash": "0x1e864b01dd9196e49398f9c53a8d4256eb3920cbe9622fa040a63658a209c6e7",
+      "layout": {
+        "solcVersion": "0.8.10",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:169"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:111"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "slices",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_uint256",
+            "contract": "Pizza",
+            "src": "contracts\\Pizza.sol:10"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
