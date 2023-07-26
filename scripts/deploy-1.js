@@ -15,10 +15,10 @@ async function main() {
 }
 
 // Proxy contract address
-// xd51aA50843c18d77a874fb3D5FdF3f64c577Aec6
+// xDE1146AD18dDc00f45A578b7f6612Cbe8FD96De6
 
 // pizza contract address
-// xd51aa50843c18d77a874fb3d5fdf3f64c577aec6 
+// xde1146ad18ddc00f45a578b7f6612cbe8fd96de6  
 
 
 main();

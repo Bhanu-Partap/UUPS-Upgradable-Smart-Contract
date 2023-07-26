@@ -15,7 +15,7 @@ module.exports = {
  },
  etherscan: {
    apiKey: {
-    sepolia:"ace13403824d4f809e011d9d547a4aa1"
+    sepolia:"SJUZCFQGMGQYW1YX3HYNQSA8B15HYUBI5G"
    },
  },
 };
